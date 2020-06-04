@@ -1,0 +1,106 @@
+--- UPDATE of May 1, 2020: May the first update in May be here! --- 
+v1.3.1
+• Added tanks:
+  • Puncher: A burst launcher. Branches from Launcher.
+  • Ichneumonidae: A growing splitter square. in TESTBED Beta. Idea stolen from Genie.
+  • Glass tank branch: Glass cannon tanks. Branches from Basic!
+  • Deadspike: Branches from Smasher. Has a haywire jumping ability.
+• Added NPCs:
+  • Protector: a glass Guardian.
+  • EK-1: PINK VERSION!
+  • Glass crasher: spawnable crasher that's glass. Idea by Despacit 2.0
+  
+The collective will be feared across the land. For our creation will be the End. The polygons will gain back everything.
+Our Absolvation will be soon.
+
+
+--- UPDATE of April 29, 2020: More and More! --- 
+v1.2.1
+• Added an entire glass tank branch to TESTBED Beta! Will be in game shortly!
+• Revised the chat so it doesn't crash with looping coomunication between server and clients.
+• Added a makeSidekick function and makeGlass function!
+• Redid the NECRO stats and how it necros stuff, so easier to manage and does not cause errors.
+• Alchemist Living Bomb will be released back to Alchemist next update.
+• Added Incise:
+  • Branches from Driller
+  • Shoot an accelerating bullet to pierce right through the hearts of enemies on right-click!
+• Added Corps:
+  • Branches from Artillery
+  • Shoots exploding bullets.
+  
+The dreaded eggs are approaching.
+
+
+--- UPDATE of April 25, 2020: Chat and Tanks! --- 
+v1.2.0
+• Added a small in-game chat!
+• Added tanks:
+  • Megacheese:
+    A fighter with the power to launch cheese!
+    Idea by Megacheese; branches from Fighter
+    
+  • Launcher branch
+    Branches from Pounder
+    
+  • Trapper Auto
+    Shoots out armed traps!
+    Branches from Trapper
+  
+  • Kraken
+    Has powerful homing traps
+    Branches from Trapper Auto
+  
+  • Mega Trapper
+    Shoots out powerful large traps!
+    It can kill all with its ram...
+    Branches from Trapper
+    
+  • Flamethrower
+    Sprays out small bullets
+    Branches from Minigun
+  
+  • Flame Spewer
+    Launches large bursts of bullets!
+    Branches from Flamethrower
+    
+  • Gasher
+    A more powerful and deadly Driller
+    Branches from Driller
+    
+  • Warship
+    Can spawn small ships...
+    Branches from Master
+    
+Added the following tanks to TESTBED Beta:
+  • Alchemist (Living Bomb)
+  • Alchemist (Poison)
+  
+Revamped the following tanks:
+  • Launcher: smaller bullets and cooler design
+  • Scherzo: Entirely its design
+  • Deadspike will be available next update!
+    
+• Changelogs in client got reworked so it fits snug and tight, with an easier way of viewing full changelog.
+• Balanced and buffed drone tanks, machine gun and necromancer.
+• Fixed Observer bug where it leaves clones of itself.
+• 5+ squares in one area no longer spawns additional eggs.
+• Patched a glitch where an egg would immediately evolve and rapidly spawn ghosts (due to my heavy modding of the client and app.js).
+
+Sire! Do you remember the Polyviral Vector? An unimaginable boss with the power to inject polyvectors? The polyvectors that forcibly makes tanks spawn polygons and kills them slowly...?
+Yes, I believe so, soldier. Didn't the polygons combine their bodies, or, what remained of them into producing that monstrosity?
+We've received info that the polygons are planning something much worse...
+What could be more worse than the Polyviral Vector?
+All we've gotten from our spies was:
+  "The polygons are awakening. Worse than Polyviral. WZAZY"
+
+
+--- UPDATE of April 20, 2020: Server Release! ---
+v1.0.0
+• Created from the source code of arras.io, by nepphhh!
+• An arras server by X__x
+• Will be filled with my very unique and special woomy suggestions that will never get added and some really creative and cool tanks found nowhere else.
+
+The polygons are awakening...
+All shall tremble in and undone and done
+For their wrath beholds a walking nightmare
+Their quest for redomination has begun.
