@@ -1,3 +1,4 @@
+
 <!doctype html>
 <html lang="en" id="mainBody">
 <link href="https://fonts.googleapis.com/css?family=Ubuntu:400,700" rel="stylesheet">
@@ -92,7 +93,7 @@
                                             <td id="ma4tdm">ExtraVM | Montreal (Ca) | 4TDM Maze</td>
                                         </tr>
                                         <tr>
-                                            <td id="mo4tdm">ExtraVM | Montreal (Ca) | 4TDM Mothership</td>
+                                            <td id="rush">ExtraVM | Montreal (Ca) | Boss Rush</td>
                                         </tr>
                                         <tr>
                                             <td id="dev">ExtraVM | Dallas (US) | Developer Server</td>
@@ -107,7 +108,7 @@
                             <input type="text" class="conceal" tabindex="3" placeholder="Token (for beta-testers only)" id="playerKeyInput" maxlength="64" />
                         </div>
                         <div class="slider" id="startMenuSlidingTrigger">
-                            <h3 class="nopadding">View Options/Help ⬇</h3>
+                            <h3 class="nopadding">⬇ View Options & Help ⬇</h3>
                         </div>
                         <div class="slider" id="startMenuSlidingContent"><br>
                             <optionsHeader>Miscellaneous Controls:</optionsHeader>
@@ -222,13 +223,13 @@
         $("#startMenuSlidingTrigger").on('click', function() {
             if (clicked) {
                 clicked = false;
-                $(this).html('<h3 class="nopadding">Close Options/Help ⬆</h3>');
+                $(this).html('<h3 class="nopadding">⬆ Close Options & Help ⬆</h3>');
                 $(".slider").css({
-                    "top": "-265px"
+                    "top": "-263px"
                 });
             } else {
                 clicked = true;
-                $(this).html('<h3 class="nopadding">View Options/Help ⬇</h3>');
+                $(this).html('<h3 class="nopadding">⬇ View Options & Help ⬇</h3>');
                 $(".slider").css({
                     "top": 0
                 });
@@ -242,7 +243,6 @@
                 "height": "100%"
             });
         });
-       
     </script>
 </body>
 </html>
