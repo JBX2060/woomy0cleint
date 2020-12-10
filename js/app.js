@@ -540,9 +540,9 @@ const _createClass = function() {
                     case "ExtraVM | Dallas (US) | FFA":
                         e = 0;
                         break;
-                    case "ExtraVM | Dallas (US) | 2TDM Domination":
+                   /* case "ExtraVM | Dallas (US) | 2TDM Domination":
                         e = 1;
-                        break;
+                        break;*/
                     case "ExtraVM | Dallas (US) | 4TDM":
                         e = 2;
                         break;
@@ -552,7 +552,7 @@ const _createClass = function() {
                     case "ExtraVM | Montreal (Ca) | 2TDM":
                         e = 4;
                         break;
-                    case "ExtraVM | Montreal (Ca) | Portal Domination":
+                   /* case "ExtraVM | Montreal (Ca) | Portal Domination":
                         e = 5;
                         break;
                     case "ExtraVM | Montreal (Ca) | 4TDM Maze":
@@ -560,19 +560,19 @@ const _createClass = function() {
                         break;
                     case "ExtraVM | Montreal (Ca) | 4TDM Mothership":
                         e = 7;
-                        break;
+                        break;*/
                     default:
                         return logger.error("Failed to select a server because there was an invalid text input: " + l);
                 } else e = l;
                 switch (e) {
                     case 0:
-                        serverIP = "localhost:8080", serverPort = 8080, serverName = "EVM-US :FFA:", prefix = "";
+                        serverIP = "localhost:8080", serverPort = 8080, serverName = "EVM-US :FFA:", prefix = "-ffa";
                         break;
                     case 1:
                         serverIP = "23.29.125.107", serverPort = 3004, serverName = "EVM-US :2Dom:", prefix = "-2dom";
                         break;
                     case 2:
-                        serverIP = "23.29.125.107", serverPort = 3003, serverName = "EVM-US :4TDM:", prefix = "-4tdm";
+                        serverIP = "172.18.0.1", serverPort = 5000, serverName = "EVM-US :4TDM:", prefix = "-4tdm";
                         break;
                     case 3:
                         serverIP = "23.29.125.107", serverPort = 3005, serverName = "EVM-US :Dev:", prefix = "-testing";
