@@ -1,0 +1,9 @@
+body {
+    margin: 0px;
+    padding: 0px;
+    user-select: none;
+    display: flex;
+    overflow: hidden;
+    justify-content: center;
+    align-items: center;
+}
