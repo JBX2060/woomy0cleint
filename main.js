@@ -204,7 +204,6 @@ var totalSpeedTest = 0;
 var World = [];
 perlin.seed(1);
 function createChunk(x,y) {
-  //World[x][y] = Math.random();
   console.log('chunkCreated')
   World[x][y] = {};
       
@@ -213,7 +212,6 @@ function createChunk(x,y) {
       let xCoord = fromBijective(x)*8+i;
       let yCoord = fromBijective(y)*8+j;
       let heightMap = Math.abs(perlin.get(xCoord/150.576,0.5))*60-10;
-      //console.log(heightMap);
       if (yCoord > heightMap) {
         if (yCoord < 0 && yCoord > heightMap) {
           World[x][y]['x' + i + 'y' + j] = '0006';
@@ -240,8 +238,6 @@ function createChunk(x,y) {
       else {
         World[x][y]['x' + i + 'y' + j] = '1002';
       }
-      //World[x][y]['x' + i + 'y' + j] = Math.round(Math.abs(perlin.get(0.5,0.5)));
-      //World[x][y]['x' + i + 'y' + j] = 0;
     }
   }
 }
@@ -266,10 +262,6 @@ function fromBijective(x) {
     return x/-2;
   }
 }
-
-
-
-
 
 //slow looper
 setInterval(slowLoop, 1000);
