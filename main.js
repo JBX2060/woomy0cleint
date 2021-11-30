@@ -298,7 +298,7 @@ function mainLoop() {
     reloadWindow();
   }
   /* The Background */
-  ctx.fillStyle = '#34a1eb';
+  ctx.fillStyle = '#1478f8';
   ctx.globalAlpha = 1;
   drawRect(0-canX,0-canY,canX,canY);
   
@@ -382,10 +382,9 @@ function mainLoop() {
   for (let i = 0; i < World.length; i++) {
     
   }  
-  // To Prevent a weird line, set the Hex Color to #00000000
-  ctx.fillStyle = 'white';
-  ctx.strokeStyle = 'red';
-  ctx.globalAlpha = 1;
+  ctx.fillStyle = 'white'; /* Behind the actual canvas */
+  ctx.strokeStyle = '#1478f8'; /* To Prevent a weird line, set the Hex Color to #1478f8 */
+  ctx.globalAlpha = 1; /*This must always be 1 otherwise it will be faded */
   
   
   
