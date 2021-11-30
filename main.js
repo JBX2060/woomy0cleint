@@ -393,7 +393,7 @@ function mainLoop() {
               let fillTrue = false;
               
               if (thisBlock === '1001') {
-                ctx.fillStyle = rgbToHex(200,100,50);
+                ctx.fillStyle = rgbToHex(73, 40, 35);
                 fillTrue = true;
               }
               else if (thisBlock === '1002') {
