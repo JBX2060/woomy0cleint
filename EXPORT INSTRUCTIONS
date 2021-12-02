@@ -1,0 +1,19 @@
+
+How do i add pictures as a file to folders?
+
+The whole code needs to be exported to Github and Imported again to Glitch with the new files from Github
+Also I finished the base of app.js
+cool
+I need a way to get the picture in without modifications or removing private. I don't have membership
+this is an old project
+cant
+can u try?
+Go to Tools
+Then Press Import and Export
+
+But you need to go to github first and create a repo with a README.md file THIS IS A NEW REPO, NOT AN EXPORT
+Then Go back to Tools and Import and Export and Select Export to Github
+Put in the repo name that you made in Github
+Then it will extract the code you added into github
+
+IN GLITCH: If it doesn't show Export to Github, press Grant Access
