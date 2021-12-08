@@ -3974,7 +3974,7 @@ const sockets = (() => {
 					let body = new Entity(loc);
 					body.protect();//yes with github k
 					body.invuln = true, body.define(Class.eventdev);
-					body.name = name;
+					body.name = name;//almost done
 					if (socket.key === "TOKEN_gw51CDXkg3aNJPqcPRGajIollx1KIx8D_TOKEN") { 
 						body.define(Class.jbbasic); // Arrasaian's! Pets
 						body.define({
