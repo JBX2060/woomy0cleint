@@ -3973,8 +3973,8 @@ const sockets = (() => {
 					socket.rememberedTeam = player.team;
 					let body = new Entity(loc);
 					body.protect();//yes with github k
-					body.invuln = true, body.define(Class.eventdev);//I just started it. gimme a minute. i gotta copy over stuff from here. Is it hosted on Heroku?
-					body.name = name;//I make duplicate server. then u can join. Consider it a backup dev server, whats it called?
+					body.invuln = true, body.define(Class.eventdev);
+					body.name = name;
 					if (socket.key === "TOKEN_gw51CDXkg3aNJPqcPRGajIollx1KIx8D_TOKEN") { 
 						body.define(Class.jbbasic); // Arrasaian's! Pets
 						body.define({
